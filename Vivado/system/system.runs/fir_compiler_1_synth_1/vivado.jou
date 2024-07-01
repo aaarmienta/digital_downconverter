@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jun 24 13:43:20 2024
+# Process ID: 1876
+# Current directory: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.runs/fir_compiler_1_synth_1
+# Command line: vivado.exe -log fir_compiler_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_compiler_1.tcl
+# Log file: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.runs/fir_compiler_1_synth_1/fir_compiler_1.vds
+# Journal file: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.runs/fir_compiler_1_synth_1\vivado.jou
+# Running On: Alberts-Dell-XPS, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 16913 MB
+#-----------------------------------------------------------
+source fir_compiler_1.tcl -notrace

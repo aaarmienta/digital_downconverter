@@ -1,0 +1,659 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jun 24 13:33:56 2024
+# Process ID: 8420
+# Current directory: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12140 C:\Users\alber\OneDrive\Documents\Xilinx\Archive\DDC\Vivado\system\system.xpr
+# Log file: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/vivado.log
+# Journal file: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system\vivado.jou
+# Running On: Alberts-Dell-XPS, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 16913 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.xpr
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys-a7-100t:part0:1.2 available at C:/Users/alber/AppData/Roaming/Xilinx/Vivado/2022.1/xhub/board_store/xilinx_board_store/XilinxBoardStore/Vivado/2022.1/boards/Digilent/nexys-a7-100t/D.0/1.2/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys-a7-50t:part0:1.2 available at C:/Users/alber/AppData/Roaming/Xilinx/Vivado/2022.1/xhub/board_store/xilinx_board_store/XilinxBoardStore/Vivado/2022.1/boards/Digilent/nexys-a7-50t/D.0/1.2/board.xml as part xc7a50ticsg324-1l specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys4:part0:1.1 available at C:/Users/alber/AppData/Roaming/Xilinx/Vivado/2022.1/xhub/board_store/xilinx_board_store/XilinxBoardStore/Vivado/2022.1/boards/Digilent/nexys4/B.1/1.1/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:nexys4_ddr:part0:1.1 available at C:/Users/alber/AppData/Roaming/Xilinx/Vivado/2022.1/xhub/board_store/xilinx_board_store/XilinxBoardStore/Vivado/2022.1/boards/Digilent/nexys4_ddr/C.1/1.1/board.xml as part xc7a100tcsg324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/alber/OneDrive/Documents/Xilinx/DDC/Vivado/system' since last save.
+INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/Users/alber/OneDrive/AppData/Roaming/Xilinx/Vivado/2022.1/xhub/board_store/xilinx_board_store'; using path 'C:/Users/alber/AppData/Roaming/Xilinx/Vivado/2022.1/xhub/board_store/xilinx_board_store' instead.
+INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/Users/alber/OneDrive/AppData/Roaming/Xilinx/Vivado/2021.2/xhub/board_store/xilinx_board_store'; using path 'C:/Users/alber/AppData/Roaming/Xilinx/Vivado/2021.2/xhub/board_store/xilinx_board_store' instead.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/ip_repo/component.xml', nor could it be found using path 'C:/Users/alber/OneDrive/Documents/Xilinx/ip_repo/component.xml'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alber/OneDrive/Documents/Xilinx/Archive/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1650.551 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 12
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fir_compiler_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fir_compiler_0'...
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/ila_0/ila_0.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/dds_compiler_0/dds_compiler_0.xci' is already up-to-date
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Mon Jun 24 13:44:00 2024] Launched fir_compiler_0_synth_1, fir_compiler_1_synth_1...
+Run output will be captured here:
+fir_compiler_0_synth_1: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.runs/fir_compiler_0_synth_1/runme.log
+fir_compiler_1_synth_1: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.runs/fir_compiler_1_synth_1/runme.log
+[Mon Jun 24 13:44:00 2024] Launched synth_1...
+Run output will be captured here: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:48 . Memory (MB): peak = 1650.551 ; gain = 0.000
+open_bd_design {C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_iic:2.1 - axi_iic_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Successfully read diagram <design_1> from block design file <C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1650.551 ; gain = 0.000
+launch_runs impl_1 -jobs 12
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/ila_0/ila_0.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/dds_compiler_0/dds_compiler_0.xci' is already up-to-date
+[Mon Jun 24 13:47:00 2024] Launched impl_1...
+Run output will be captured here: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 1650.551 ; gain = 0.000
+generate_target Simulation [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_1/fir_compiler_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fir_compiler_1'...
+export_ip_user_files -of_objects [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_1/fir_compiler_1.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_1/fir_compiler_1.xci] -directory C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files -ipstatic_source_dir C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/modelsim} {questa=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/questa} {riviera=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/riviera} {activehdl=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_0/fir_compiler_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fir_compiler_0'...
+export_ip_user_files -of_objects [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_0/fir_compiler_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_0/fir_compiler_0.xci] -directory C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files -ipstatic_source_dir C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/modelsim} {questa=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/questa} {riviera=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/riviera} {activehdl=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'toplevel'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'toplevel' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.sim/sim_1/behav/xsim/fir_compiler_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.sim/sim_1/behav/xsim/filt200.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.sim/sim_1/behav/xsim/fir_compiler_1.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.sim/sim_1/behav/xsim/filt774.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -L axi_vip_v1_1_12 -L processing_system7_vip_v1_0_14 -L xilinx_vip -prj toplevel_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_processing_system7_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xbar_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj toplevel_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.gen/sources_1/ip/fir_compiler_1/sim/fir_compiler_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fir_compiler_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.gen/sources_1/ip/fir_compiler_0/sim/fir_compiler_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fir_compiler_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.gen/sources_1/ip/ila_0/sim/ila_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ila_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/bd/design_1/ip/design_1_axi_iic_0_0/sim/design_1_axi_iic_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_iic_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/bd/design_1/ip/design_1_rst_ps7_0_50M_0/sim/design_1_rst_ps7_0_50M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_rst_ps7_0_50M_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_gpio_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/bd/design_1/ip/design_1_axi_gpio_1_0/sim/design_1_axi_gpio_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_gpio_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/bd/design_1/sim/design_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'm00_couplers_imp_15SPJYW'
+INFO: [VRFC 10-3107] analyzing entity 'm01_couplers_imp_XU9C55'
+INFO: [VRFC 10-3107] analyzing entity 'm02_couplers_imp_14WQB4R'
+INFO: [VRFC 10-3107] analyzing entity 's00_couplers_imp_UYSKKA'
+INFO: [VRFC 10-3107] analyzing entity 'design_1_ps7_0_axi_periph_0'
+INFO: [VRFC 10-3107] analyzing entity 'design_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.gen/sources_1/ip/lowlevel_dac_intfc_0/src/clkdivider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clkdivider'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.gen/sources_1/ip/lowlevel_dac_intfc_0/src/low_level_dac_if.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'lowlevel_dac_intfc'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.gen/sources_1/ip/lowlevel_dac_intfc_0/sim/lowlevel_dac_intfc_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'lowlevel_dac_intfc_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.gen/sources_1/ip/dds_compiler_0/sim/dds_compiler_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dds_compiler_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/imports/new/toplevel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'toplevel'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1650.551 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L fir_compiler_v7_2_18 -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_12 -L processing_system7_vip_v1_0_14 -L lib_pkg_v1_0_2 -L lib_cdc_v1_0_2 -L axi_lite_ipif_v3_0_4 -L interrupt_control_v3_1_4 -L axi_iic_v2_1_2 -L generic_baseblocks_v2_1_0 -L axi_register_slice_v2_1_26 -L fifo_generator_v13_2_7 -L axi_data_fifo_v2_1_25 -L axi_crossbar_v2_1_27 -L axi_protocol_converter_v2_1_26 -L proc_sys_reset_v5_0_13 -L axi_gpio_v2_0_28 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L dds_compiler_v6_0_22 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot toplevel_behav xil_defaultlib.toplevel xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L fir_compiler_v7_2_18 -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_12 -L processing_system7_vip_v1_0_14 -L lib_pkg_v1_0_2 -L lib_cdc_v1_0_2 -L axi_lite_ipif_v3_0_4 -L interrupt_control_v3_1_4 -L axi_iic_v2_1_2 -L generic_baseblocks_v2_1_0 -L axi_register_slice_v2_1_26 -L fifo_generator_v13_2_7 -L axi_data_fifo_v2_1_25 -L axi_crossbar_v2_1_27 -L axi_protocol_converter_v2_1_26 -L proc_sys_reset_v5_0_13 -L axi_gpio_v2_0_28 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L dds_compiler_v6_0_22 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot toplevel_behav xil_defaultlib.toplevel xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9180] module 'IOBUF' is instantiated multiple times from VHDL or from both Verilog and VHDL; elaboration result may be incorrect [/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/IOBUF.v:31]
+WARNING: [VRFC 10-3091] actual bit length 128 differs from formal bit length 64 for port 'WR_DATA_STRB' [/scratch/proj/xbuilds/SWIP/2022.1_0420_0327/infra/XSIM/lin/.cxl.ip/incl/processing_system7_vip_v1_0_14_axi_gp.v:208]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 6 for port 'm_axi_bid' [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:5546]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 6 for port 'm_axi_rid' [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:5564]
+WARNING: [VRFC 10-3091] actual bit length 128 differs from formal bit length 64 for port 'WR_DATA_STRB' [/scratch/proj/xbuilds/SWIP/2022.1_0420_0327/infra/XSIM/lin/.cxl.ip/incl/processing_system7_vip_v1_0_14_axi_gp.v:292]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'WR_BYTES' [/scratch/proj/xbuilds/SWIP/2022.1_0420_0327/infra/XSIM/lin/.cxl.ip/incl/processing_system7_vip_v1_0_14_axi_hp.v:80]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'RD_BYTES' [/scratch/proj/xbuilds/SWIP/2022.1_0420_0327/infra/XSIM/lin/.cxl.ip/incl/processing_system7_vip_v1_0_14_axi_hp.v:89]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 6 for port 'm_axi_bid' [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:10256]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 6 for port 'm_axi_rid' [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:10274]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 64 for port 'm_axi_rdata' [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:10275]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'WR_BYTES' [/scratch/proj/xbuilds/SWIP/2022.1_0420_0327/infra/XSIM/lin/.cxl.ip/incl/processing_system7_vip_v1_0_14_axi_hp.v:165]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'RD_BYTES' [/scratch/proj/xbuilds/SWIP/2022.1_0420_0327/infra/XSIM/lin/.cxl.ip/incl/processing_system7_vip_v1_0_14_axi_hp.v:174]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'WR_BYTES' [/scratch/proj/xbuilds/SWIP/2022.1_0420_0327/infra/XSIM/lin/.cxl.ip/incl/processing_system7_vip_v1_0_14_axi_hp.v:251]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'RD_BYTES' [/scratch/proj/xbuilds/SWIP/2022.1_0420_0327/infra/XSIM/lin/.cxl.ip/incl/processing_system7_vip_v1_0_14_axi_hp.v:260]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'WR_BYTES' [/scratch/proj/xbuilds/SWIP/2022.1_0420_0327/infra/XSIM/lin/.cxl.ip/incl/processing_system7_vip_v1_0_14_axi_hp.v:337]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'RD_BYTES' [/scratch/proj/xbuilds/SWIP/2022.1_0420_0327/infra/XSIM/lin/.cxl.ip/incl/processing_system7_vip_v1_0_14_axi_hp.v:346]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 3 for port 'm_axi_bid' [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:7157]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 3 for port 'm_axi_rid' [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:7175]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 64 for port 'm_axi_rdata' [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:7176]
+WARNING: [VRFC 10-5021] port 'ENET0_GMII_RXD' is not connected on this instance [C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v:191]
+WARNING: [VRFC 10-3027] 'ocm_wr_strb_port0' was previously declared with a different range [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:3809]
+WARNING: [VRFC 10-5021] port 'aclk2x' is not connected on this instance [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/axi_protocol_converter_v2_1/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4376]
+WARNING: [VRFC 10-5021] port 'aclk2x' is not connected on this instance [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/axi_protocol_converter_v2_1/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4631]
+WARNING: [VRFC 10-3705] select index 64 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:6134]
+WARNING: [VRFC 10-3705] select index 128 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:10898]
+WARNING: [VRFC 10-3705] select index 128 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:7772]
+WARNING: [VRFC 10-3705] select index 4 into 'wr_fifo_rd_ptr' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:7985]
+WARNING: [VRFC 10-3705] select index 4 into 'ar_cnt' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8124]
+WARNING: [VRFC 10-3705] select index 4 into 'wr_rresp_cnt' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8221]
+WARNING: [VRFC 10-3705] select index 4 into 'rd_fifo_wr_ptr' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8240]
+WARNING: [VRFC 10-3705] select index 4 into 'rd_cnt' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8381]
+WARNING: [VRFC 10-3705] select index 4 into 'rresp_time_cnt' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8386]
+WARNING: [VRFC 10-3705] select index 4 into 'rd_fifo_rd_ptr' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8391]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package xbip_utils_v3_0_10.xcc_utils_v3_0
+Compiling package dds_compiler_v6_0_22.dds_compiler_v6_0_22_viv_comp
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package dds_compiler_v6_0_22.pkg_dds_compiler_v6_0_22
+Compiling package dds_compiler_v6_0_22.dds_compiler_v6_0_22_hdl_comps
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package axi_utils_v2_0_6.axi_utils_v2_0_6_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_6.global_util_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_comps
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling package dds_compiler_v6_0_22.pkg_betas
+Compiling package dds_compiler_v6_0_22.pkg_alphas
+Compiling package xbip_dsp48_multadd_v3_0_6.xbip_dsp48_multadd_v3_0_6_viv_co...
+Compiling package xbip_dsp48_multadd_v3_0_6.xbip_dsp48_multadd_v3_0_6_pkg
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package axi_iic_v2_1_2.iic_pkg
+Compiling package fir_compiler_v7_2_18.fir_compiler_v7_2_18_viv_comp
+Compiling package ieee.std_logic_textio
+Compiling package fir_compiler_v7_2_18.globals_pkg
+Compiling package fir_compiler_v7_2_18.components
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity dds_compiler_v6_0_22.dds_compiler_v6_0_22_rdy [\dds_compiler_v6_0_22_rdy(c_has_...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity dds_compiler_v6_0_22.pipe_add [\pipe_add(c_width=27,c_seg_width...]
+Compiling architecture synth of entity dds_compiler_v6_0_22.accum [\accum(c_xdevicefamily="zynq",c_...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture synth of entity dds_compiler_v6_0_22.sin_cos [\sin_cos(c_xdevicefamily="zynq",...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(adreg=0,carryinselreg=0...]
+Compiling architecture synth of entity xbip_dsp48_wrapper_v3_0_4.xbip_dsp48e1_wrapper_v3_0 [\xbip_dsp48e1_wrapper_v3_0(areg=...]
+Compiling architecture synth of entity xbip_dsp48_multadd_v3_0_6.xbip_dsp48_multadd_synth [\xbip_dsp48_multadd_synth(c_xdev...]
+Compiling architecture synth of entity xbip_dsp48_multadd_v3_0_6.xbip_dsp48_multadd_v3_0_6_viv [\xbip_dsp48_multadd_v3_0_6_viv(c...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity dds_compiler_v6_0_22.dds_compiler_v6_0_22_eff [\dds_compiler_v6_0_22_eff(c_xdev...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture synth of entity dds_compiler_v6_0_22.dds_compiler_v6_0_22_core [\dds_compiler_v6_0_22_core(c_xde...]
+Compiling architecture synth of entity dds_compiler_v6_0_22.dds_compiler_v6_0_22_viv [\dds_compiler_v6_0_22_viv(c_xdev...]
+Compiling architecture xilinx of entity dds_compiler_v6_0_22.dds_compiler_v6_0_22 [\dds_compiler_v6_0_22(c_xdevicef...]
+Compiling architecture dds_compiler_0_arch of entity xil_defaultlib.dds_compiler_0 [dds_compiler_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.clkdivider [\clkdivider(divideby=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.clkdivider [\clkdivider(divideby=40)\]
+Compiling architecture behavioral of entity xil_defaultlib.lowlevel_dac_intfc [lowlevel_dac_intfc_default]
+Compiling architecture lowlevel_dac_intfc_0_arch of entity xil_defaultlib.lowlevel_dac_intfc_0 [lowlevel_dac_intfc_0_default]
+Compiling module unisims_ver.IOBUF(DRIVE=12,IBUF_LOW_PWR="TRU...
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=9,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_single_bit=0,c_mtbf_...]
+Compiling architecture imp of entity axi_gpio_v2_0_28.GPIO_Core [\GPIO_Core(c_aw=9,c_gpio2_width=...]
+Compiling architecture imp of entity axi_gpio_v2_0_28.axi_gpio [\axi_gpio(c_family="zynq",c_gpio...]
+Compiling architecture design_1_axi_gpio_0_0_arch of entity xil_defaultlib.design_1_axi_gpio_0_0 [design_1_axi_gpio_0_0_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_single_bit=0,c_vecto...]
+Compiling architecture imp of entity axi_gpio_v2_0_28.GPIO_Core [\GPIO_Core(c_aw=9,c_gpio_width=1...]
+Compiling architecture imp of entity axi_gpio_v2_0_28.axi_gpio [\axi_gpio(c_family="zynq",c_gpio...]
+Compiling architecture design_1_axi_gpio_1_0_arch of entity xil_defaultlib.design_1_axi_gpio_1_0 [design_1_axi_gpio_1_0_default]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=9,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=7,c_aw=9,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=1,c_aw=9,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=5,c_aw=5,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=9,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture implementation of entity interrupt_control_v3_1_4.interrupt_control [\interrupt_control(c_num_ce=16,c...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111001010")(0...]
+Compiling architecture fdrse_v of entity unisim.FDRSE [fdrse_default]
+Compiling architecture implementation of entity axi_iic_v2_1_2.soft_reset [soft_reset_default]
+Compiling architecture rtl of entity axi_iic_v2_1_2.axi_ipif_ssp1 [\axi_ipif_ssp1(c_num_iic_regs=18...]
+Compiling architecture rtl of entity axi_iic_v2_1_2.reg_interface [\reg_interface(c_scl_inertial_de...]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_mtbf_stages=4)\]
+Compiling architecture rtl of entity axi_iic_v2_1_2.debounce [\debounce(c_inertial_delay=0)\]
+Compiling architecture rtl of entity axi_iic_v2_1_2.filter [\filter(scl_inertial_delay=0,sda...]
+Compiling architecture rtl of entity axi_iic_v2_1_2.upcnt_n [\upcnt_n(c_size=11)\]
+Compiling architecture rtl of entity axi_iic_v2_1_2.shift8 [shift8_default]
+Compiling architecture rtl of entity axi_iic_v2_1_2.upcnt_n [\upcnt_n(c_size=4)\]
+Compiling architecture rtl of entity axi_iic_v2_1_2.iic_control [\iic_control(c_scl_inertial_dela...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture muxcy_l_v of entity unisim.MUXCY_L [muxcy_l_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture imp of entity axi_iic_v2_1_2.SRL_FIFO [\SRL_FIFO(c_depth=4)\]
+Compiling architecture rtl of entity axi_iic_v2_1_2.dynamic_master [dynamic_master_default]
+Compiling architecture imp of entity axi_iic_v2_1_2.SRL_FIFO [\SRL_FIFO(c_data_bits=2,c_depth=...]
+Compiling architecture rtl of entity axi_iic_v2_1_2.iic [\iic(c_num_iic_regs=18,c_s_axi_a...]
+Compiling architecture rtl of entity axi_iic_v2_1_2.axi_iic [\axi_iic(c_family="zynq",c_s_axi...]
+Compiling architecture design_1_axi_iic_0_0_arch of entity xil_defaultlib.design_1_axi_iic_0_0 [design_1_axi_iic_0_0_default]
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_g...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_g...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_f...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_s...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_i...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_s...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_d...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_o...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_o...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_r...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_r...
+Compiling module xilinx_vip.axi_vip_axi4pc(WDATA_WIDTH=32,RD...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_PROTOCOL=1,C_AX...
+Compiling module axi_vip_v1_1_12.axi_vip_v1_1_12_top(C_AXI_PROTOC...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module xilinx_vip.axi_vip_axi4pc(WDATA_WIDTH=32,RD...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_PROTOCOL=1,C_AX...
+Compiling module axi_vip_v1_1_12.axi_vip_v1_1_12_top(C_AXI_PROTOC...
+WARNING: [VRFC 10-3705] select index 64 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:6134]
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module xilinx_vip.axi_vip_axi4pc(PROTOCOL=1,RID_WI...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_PROTOCOL=1,C_AX...
+Compiling module axi_vip_v1_1_12.axi_vip_v1_1_12_top(C_AXI_PROTOC...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_i...
+WARNING: [VRFC 10-3705] select index 128 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:10898]
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module xilinx_vip.axi_vip_axi4pc(PROTOCOL=1,RID_WI...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_PROTOCOL=1,C_AX...
+Compiling module axi_vip_v1_1_12.axi_vip_v1_1_12_top(C_AXI_PROTOC...
+WARNING: [VRFC 10-3705] select index 128 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:7772]
+WARNING: [VRFC 10-3705] select index 4 into 'wr_fifo_rd_ptr' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:7985]
+WARNING: [VRFC 10-3705] select index 4 into 'ar_cnt' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8124]
+WARNING: [VRFC 10-3705] select index 4 into 'wr_rresp_cnt' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8221]
+WARNING: [VRFC 10-3705] select index 4 into 'rd_fifo_wr_ptr' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8240]
+WARNING: [VRFC 10-3705] select index 4 into 'rd_cnt' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8381]
+WARNING: [VRFC 10-3705] select index 4 into 'rresp_time_cnt' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8386]
+WARNING: [VRFC 10-3705] select index 4 into 'rd_fifo_rd_ptr' is out of bounds [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/processing_system7_vip_v1_0/hdl/processing_system7_vip_v1_0_vl_rfs.sv:8391]
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14_a...
+Compiling module processing_system7_vip_v1_0_14.processing_system7_vip_v1_0_14(C...
+Compiling module xil_defaultlib.design_1_processing_system7_0_0
+Compiling architecture structure of entity xil_defaultlib.m00_couplers_imp_15SPJYW [m00_couplers_imp_15spjyw_default]
+Compiling architecture structure of entity xil_defaultlib.m01_couplers_imp_XU9C55 [m01_couplers_imp_xu9c55_default]
+Compiling architecture structure of entity xil_defaultlib.m02_couplers_imp_14WQB4R [m02_couplers_imp_14wqb4r_default]
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_axi2ve...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_vector...
+Compiling module axi_register_slice_v2_1_26.axi_register_slice_v2_1_26_axic_...
+Compiling module axi_register_slice_v2_1_26.axi_register_slice_v2_1_26_axic_...
+Compiling module axi_register_slice_v2_1_26.axi_register_slice_v2_1_26_axic_...
+Compiling module axi_register_slice_v2_1_26.axi_register_slice_v2_1_26_axic_...
+Compiling module axi_register_slice_v2_1_26.axi_register_slice_v2_1_26_axi_r...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_axi2ve...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_vector...
+Compiling module axi_register_slice_v2_1_26.axi_register_slice_v2_1_26_axic_...
+Compiling module axi_register_slice_v2_1_26.axi_register_slice_v2_1_26_axic_...
+Compiling module axi_register_slice_v2_1_26.axi_register_slice_v2_1_26_axic_...
+Compiling module axi_register_slice_v2_1_26.axi_register_slice_v2_1_26_axic_...
+Compiling module axi_register_slice_v2_1_26.axi_register_slice_v2_1_26_axi_r...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_b...
+Compiling module axi_protocol_converter_v2_1_26.axi_protocol_converter_v2_1_26_a...
+Compiling module xil_defaultlib.design_1_auto_pc_0
+Compiling architecture structure of entity xil_defaultlib.s00_couplers_imp_UYSKKA [s00_couplers_imp_uyskka_default]
+Compiling module axi_crossbar_v2_1_27.axi_crossbar_v2_1_27_addr_arbite...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_carry_...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module axi_crossbar_v2_1_27.axi_crossbar_v2_1_27_addr_decode...
+Compiling module axi_crossbar_v2_1_27.axi_crossbar_v2_1_27_splitter(C_...
+Compiling module axi_crossbar_v2_1_27.axi_crossbar_v2_1_27_splitter
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module axi_register_slice_v2_1_26.axi_register_slice_v2_1_26_axic_...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module axi_crossbar_v2_1_27.axi_crossbar_v2_1_27_decerr_slav...
+Compiling module axi_crossbar_v2_1_27.axi_crossbar_v2_1_27_crossbar_sa...
+Compiling module axi_crossbar_v2_1_27.axi_crossbar_v2_1_27_axi_crossba...
+Compiling module xil_defaultlib.design_1_xbar_0
+Compiling package xilinx_vip.axi_vip_pkg
+Compiling package xilinx_vip.xil_common_vip_pkg
+Compiling package std.std
+Compiling architecture structure of entity xil_defaultlib.design_1_ps7_0_axi_periph_0 [design_1_ps7_0_axi_periph_0_defa...]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.proc_sys_reset [\proc_sys_reset(c_family="zynq",...]
+Compiling architecture design_1_rst_ps7_0_50m_0_arch of entity xil_defaultlib.design_1_rst_ps7_0_50M_0 [design_1_rst_ps7_0_50m_0_default]
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture ila_0_arch of entity xil_defaultlib.ila_0 [ila_0_default]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=16,has_ifx=t...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_slave [\glb_ifx_slave(width=16,has_ifx=...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.cntrl_delay [\cntrl_delay(c_delay_len=0,c_mem...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.sp_mem [\sp_mem(c_xdevicefamily="zynq",c...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.sp_mem [\sp_mem(c_xdevicefamily="zynq",c...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.filt_mem [\filt_mem(c_xdevicefamily="zynq"...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.sp_mem [\sp_mem(c_xdevicefamily="zynq",c...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.filt_mem [\filt_mem(c_xdevicefamily="zynq"...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=40,c_xdevicef...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.buff [\buff(c_xdevicefamily="zynq",c_d...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=2,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=41,c_xdevicef...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.buff [\buff(c_xdevicefamily="zynq",c_d...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(mask="11111111111111111...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.calc [\calc(c_xdevicefamily="zynq",c_p...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.addsub_mult_add [\addsub_mult_add(c_xdevicefamily...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.addsub_mult_add [\addsub_mult_add(c_xdevicefamily...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.dpr_mem [\dpr_mem(c_xdevicefamily="zynq",...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=1,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=1,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.wrap_buff [\wrap_buff(c_xdevicefamily="zynq...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(inmodereg=0,mask="11111...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.calc [\calc(c_xdevicefamily="zynq",c_p...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.add_accum [\add_accum(c_xdevicefamily="zynq...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=1,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=1,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=5,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=7,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.polyphase_decimation [\polyphase_decimation(c_xdevicef...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.fir_compiler_v7_2_18_viv [\fir_compiler_v7_2_18_viv(c_xdev...]
+Compiling architecture xilinx of entity fir_compiler_v7_2_18.fir_compiler_v7_2_18 [\fir_compiler_v7_2_18(c_xdevicef...]
+Compiling architecture fir_compiler_0_arch of entity xil_defaultlib.fir_compiler_0 [fir_compiler_0_default]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=2,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=4,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.dpt_mem [\dpt_mem(c_xdevicefamily="zynq",...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.filt_mem [\filt_mem(c_xdevicefamily="zynq"...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.sp_mem [\sp_mem(c_xdevicefamily="zynq",c...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.filt_mem [\filt_mem(c_xdevicefamily="zynq"...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.cntrl_delay [\cntrl_delay(c_delay_len=0,c_mem...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.wrap_buff [\wrap_buff(c_xdevicefamily="zynq...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.calc [\calc(c_xdevicefamily="zynq",c_p...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.addsub_mult_accum [\addsub_mult_accum(c_xdevicefami...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=1,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=2,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=1,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=3,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.polyphase_decimation [\polyphase_decimation(c_xdevicef...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.fir_compiler_v7_2_18_viv [\fir_compiler_v7_2_18_viv(c_xdev...]
+Compiling architecture xilinx of entity fir_compiler_v7_2_18.fir_compiler_v7_2_18 [\fir_compiler_v7_2_18(c_xdevicef...]
+Compiling architecture fir_compiler_1_arch of entity xil_defaultlib.fir_compiler_1 [fir_compiler_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.toplevel
+Built simulation snapshot toplevel_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:01:06 . Memory (MB): peak = 1650.551 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '66' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "toplevel_behav -key {Behavioral:sim_1:Functional:toplevel} -tclbatch {toplevel.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//axi_gpio_0/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//axi_gpio_1/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//axi_iic_0/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//processing_system7_0/M_AXI_GP0
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/M02_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/m00_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/m00_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/m01_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/m01_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/m02_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/m02_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/s00_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/s00_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/s00_couplers/auto_pc/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/s00_couplers/auto_pc/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/xbar/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/xbar/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/xbar/M02_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /toplevel/design_1_i//ps7_0_axi_periph/xbar/S00_AXI
+Time resolution is 1 ps
+source toplevel.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+XilinxAXIVIP: Found at Path: toplevel.design_1_i.processing_system7_0.inst.M_AXI_GP0.master
+[0] : *ZYNQ_VIP_INFO : M_AXI_GP0 : Port is ENABLED.
+XilinxAXIVIP: Found at Path: toplevel.design_1_i.processing_system7_0.inst.M_AXI_GP1.master
+[0] : *ZYNQ_VIP_INFO : M_AXI_GP1 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: toplevel.design_1_i.processing_system7_0.inst.S_AXI_GP0.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_GP0 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: toplevel.design_1_i.processing_system7_0.inst.S_AXI_GP1.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_GP1 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: toplevel.design_1_i.processing_system7_0.inst.S_AXI_HP0.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP0 : Port is DISABLED.
+                   0 BEFORE checking line ...... x
+                   0 AFTER checking line ...... x
+XilinxAXIVIP: Found at Path: toplevel.design_1_i.processing_system7_0.inst.S_AXI_HP1.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP1 : Port is DISABLED.
+                   0 BEFORE checking line ...... x
+                   0 AFTER checking line ...... x
+XilinxAXIVIP: Found at Path: toplevel.design_1_i.processing_system7_0.inst.S_AXI_HP2.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP2 : Port is DISABLED.
+                   0 BEFORE checking line ...... x
+                   0 AFTER checking line ...... x
+XilinxAXIVIP: Found at Path: toplevel.design_1_i.processing_system7_0.inst.S_AXI_HP3.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP3 : Port is DISABLED.
+                   0 BEFORE checking line ...... x
+                   0 AFTER checking line ...... x
+XilinxAXIVIP: Found at Path: toplevel.design_1_i.processing_system7_0.inst.S_AXI_ACP.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_ACP : Port is DISABLED.
+Note: axi_iic configured for SDA inertial delay of 0 clocks.
+Time: 0 ps  Iteration: 0  Process: /toplevel/design_1_i/axi_iic_0/U0/X_IIC/FILTER_I/line__5051  File: /wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/axi_iic_v2_1/hdl/axi_iic_v2_1_vh_rfs.vhd
+Note: axi_iic configured for SCL inertial delay of 0 clocks.
+Time: 0 ps  Iteration: 0  Process: /toplevel/design_1_i/axi_iic_0/U0/X_IIC/FILTER_I/line__5025  File: /wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/ip/xilinx/axi_iic_v2_1/hdl/axi_iic_v2_1_vh_rfs.vhd
+                   0 else checking line ......x
+WARNING: 4 ns toplevel.design_1_i.processing_system7_0.inst.M_AXI_GP0.master.IF : ARESET_N can't be X/Z after 1 cycle of clock. To downgrade, use <hierarchy_path to VIP>.IF.set_enable_xchecks_to_warn(), or filter using clr_enable_xchecks.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'toplevel_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:01:19 . Memory (MB): peak = 1650.551 ; gain = 0.000
+close_sim
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+INFO: [Simtcl 6-16] Simulation closed
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/ila_0/ila_0.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/dds_compiler_0/dds_compiler_0.xci' is already up-to-date
+[Mon Jun 24 21:25:32 2024] Launched impl_1...
+Run output will be captured here: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 1650.551 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 25 19:41:11 2024...

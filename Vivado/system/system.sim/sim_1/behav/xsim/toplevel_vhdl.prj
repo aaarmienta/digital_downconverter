@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../system.gen/sources_1/ip/fir_compiler_1/sim/fir_compiler_1.vhd" \
+"../../../../system.gen/sources_1/ip/fir_compiler_0/sim/fir_compiler_0.vhd" \
+"../../../../system.gen/sources_1/ip/ila_0/sim/ila_0.vhd" \
+"../../../../system.ip_user_files/bd/design_1/ip/design_1_axi_iic_0_0/sim/design_1_axi_iic_0_0.vhd" \
+"../../../../system.ip_user_files/bd/design_1/ip/design_1_rst_ps7_0_50M_0/sim/design_1_rst_ps7_0_50M_0.vhd" \
+"../../../../system.ip_user_files/bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" \
+"../../../../system.ip_user_files/bd/design_1/ip/design_1_axi_gpio_1_0/sim/design_1_axi_gpio_1_0.vhd" \
+"../../../../system.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../system.gen/sources_1/ip/lowlevel_dac_intfc_0/src/clkdivider.vhd" \
+"../../../../system.gen/sources_1/ip/lowlevel_dac_intfc_0/src/low_level_dac_if.vhd" \
+"../../../../system.gen/sources_1/ip/lowlevel_dac_intfc_0/sim/lowlevel_dac_intfc_0.vhd" \
+"../../../../system.gen/sources_1/ip/dds_compiler_0/sim/dds_compiler_0.vhd" \
+"../../../../system.srcs/sources_1/imports/new/toplevel.vhd" \
+
+# Do not sort compile order
+nosort

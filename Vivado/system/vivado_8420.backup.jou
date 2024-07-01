@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jun 24 13:33:56 2024
+# Process ID: 8420
+# Current directory: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12140 C:\Users\alber\OneDrive\Documents\Xilinx\Archive\DDC\Vivado\system\system.xpr
+# Log file: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/vivado.log
+# Journal file: C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system\vivado.jou
+# Running On: Alberts-Dell-XPS, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 16913 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_bd_design {C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/bd/design_1/design_1.bd}
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+generate_target Simulation [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_1/fir_compiler_1.xci]
+export_ip_user_files -of_objects [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_1/fir_compiler_1.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_1/fir_compiler_1.xci] -directory C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files -ipstatic_source_dir C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/modelsim} {questa=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/questa} {riviera=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/riviera} {activehdl=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_0/fir_compiler_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_0/fir_compiler_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.srcs/sources_1/ip/fir_compiler_0/fir_compiler_0.xci] -directory C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files -ipstatic_source_dir C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/modelsim} {questa=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/questa} {riviera=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/riviera} {activehdl=C:/Users/alber/OneDrive/Documents/Xilinx/Archive/DDC/Vivado/system/system.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+source toplevel.tcl
+close_sim
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1

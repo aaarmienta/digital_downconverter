@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../../system.gen/sources_1/ip/lowlevel_dac_intfc_0/src/clkdivider.vhd" \
+"../../../../system.gen/sources_1/ip/lowlevel_dac_intfc_0/src/low_level_dac_if.vhd" \
+"../../../../system.gen/sources_1/ip/lowlevel_dac_intfc_0/sim/lowlevel_dac_intfc_0.vhd" \
+
+nosort
